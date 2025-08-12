@@ -4,27 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template - Utilizar como modelo</title>
+    <title>Horário de Atendimento</title>
     <link rel="stylesheet" href="base.css">
+    <style>    
+        table{
+             border: solid 1px;
+        }
+        table thead th{
+            background-color:#0F2742;
+            color:#18B5B0;
+            text-align: left;
+            padding: 4px;
+        }
+        th,td{
+            border: solid 1px; 
+            padding: 4px;     
+            width: 20%;
+            height: 20px;  
+        }
+   
+    </style>
 </head>
 <body>
     <div class="wrapper">
         <div class="menu">
-            <!-- Aqui vai o seu menu -->
             <ul>
-                <li><a href="#">Link</a></li>
+                <h1><font color="#0F2742">Me</font><font color="#18B5B0">nu</font></h1>
+                <li><a href="SobreClinica.html">Sobre a MedCore</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+                <li><a href="PaginaInicial.html">Página Inicial</a></li>
             </ul>
         </div>
 
         <div class="main">
             <div class="header">
-                Header
-                <!-- Aqui vai o seu header -->
+                <img src="BannerHorárioAtendimento.jpg" height="250" width="100%">
             </div>
     
             <div class="content">
-                Content
-                <!-- Aqui vai o seu conteúdo -->
+                <h1><font color="#0F2742">Horário d</font><font color="#18B5B0">e Atendimento</font></h1>
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Serviços</th>
+                            <th>Segunda a Sexta</th>
+                            <th>Sábados</th>
+                            <th>Feriados</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Dermatologia</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td>Gastroenterologia</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td>Oftalmologia</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td> - </td>
+                        </tr>
+                        <tr>
+                            <td>Otorrinolaringologia</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td> - </td>
+                        </tr>
+                    </tbody>
+
+                </table>
             </div>
     
             <div class="footer">
